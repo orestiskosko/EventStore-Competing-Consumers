@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "CompetingConsumers.EventProducer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

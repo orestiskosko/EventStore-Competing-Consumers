@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\dev\CompetingConsumers" t="IncludeFlat">
+      <e p="CompetingConsumers.Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CompetingConsumers.Common.csproj" t="IncludeRecursive" />
+        <e p="DomainEvent.cs" t="Include" />
+        <e p="DomainEventMetadata.cs" t="Include" />
+        <e p="IDomainEvent.cs" t="Include" />
+        <e p="IMapper.cs" t="Include" />
+        <e p="MapperBase.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CompetingConsumers.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PostCreatedEvent.cs" t="Include" />
+        <e p="ServiceCollectionExtensions.cs" t="Include" />
+      </e>
+      <e p="CompetingConsumers.EventConsumer" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CompetingConsumers.EventConsumer.csproj" t="IncludeRecursive" />
+        <e p="ConsumerWorkerHandler.cs" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="ExecutorOptions.cs" t="Include" />
+        <e p="HangfireJobActivator.cs" t="Include" />
+        <e p="IExecutor.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CompetingConsumers.EventConsumer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PersistentSubscription.cs" t="Include" />
+        <e p="PersistentSubscriptionConsumerExecutor.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="CompetingConsumers.EventProducer" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CompetingConsumers.EventProducer.csproj" t="IncludeRecursive" />
+        <e p="Dockerfile" t="Include" />
+        <e p="DomainEventProducer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CompetingConsumers.EventProducer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PostCreatedEventMapper.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Worker.cs" t="Include" />
+      </e>
+      <e p="CompetingConsumers.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\orest\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\orest\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_CompetingConsumers.-1338019542.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+﻿version: '3'
+
+services:
+  eventStore:
+    container_name: eventstore
+    image: eventstore/eventstore
+    ports:
+      - 2113:2113
+      - 1113:1113
+
+  producer-worker:
+    container_name: producer-worker
+    build:
+      context: .
+      dockerfile: ./CompetingConsumers.EventProducer/Dockerfile
+
+  consumer-api:
+    container_name: consumer-api
+    build:
+      context: .
+      dockerfile: ./CompetingConsumers.EventConsumer/Dockerfile
+    ports:
+      - 5000:80
